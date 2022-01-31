@@ -1,0 +1,8 @@
+<p [ngStyle]="{ 'color': 'red','font-size' : '50px'}"> Etiqueta [ngStyle] </p>
+<p [style.fontSize.px]="tamano"> Etiqueta [style.fontSize.px]="20"</p>
+
+<button class="btn btn-primary" (click)="tamano = tamano + 5">
+<i class="fa fa-plus"></i></button>
+
+<button class="btn btn-primary" (click)="tamano = tamano - 5">
+  <i class="fa fa-minus"></i></button>
